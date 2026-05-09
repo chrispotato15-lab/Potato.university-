@@ -1,0 +1,16 @@
+{
+  "name": "Potato University",
+  "short_name": "Potato Uni",
+  "description": "Potato University website - non-accredited and for entertainment purposes only.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f4ee",
+  "theme_color": "#1f3a1b",
+  "icons": [
+    {
+      "src": "/assets/favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml"
+    }
+  ]
+}

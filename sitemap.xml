@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://potato-university.example/</loc></url>
+  <url><loc>https://potato-university.example/#/about</loc></url>
+  <url><loc>https://potato-university.example/#/team</loc></url>
+  <url><loc>https://potato-university.example/#/courses</loc></url>
+  <url><loc>https://potato-university.example/#/potato-points</loc></url>
+  <url><loc>https://potato-university.example/#/ppe</loc></url>
+  <url><loc>https://potato-university.example/#/ppe-practice</loc></url>
+  <url><loc>https://potato-university.example/#/news</loc></url>
+  <url><loc>https://potato-university.example/#/donations</loc></url>
+  <url><loc>https://potato-university.example/#/contact</loc></url>
+  <url><loc>https://potato-university.example/#/faq</loc></url>
+  <url><loc>https://potato-university.example/#/campus-map</loc></url>
+  <url><loc>https://potato-university.example/#/portal</loc></url>
+  <url><loc>https://potato-university.example/#/booklists</loc></url>
+  <url><loc>https://potato-university.example/#/publications</loc></url>
+  <url><loc>https://potato-university.example/#/honours</loc></url>
+  <url><loc>https://potato-university.example/#/dual-degrees</loc></url>
+  <url><loc>https://potato-university.example/#/legal</loc></url>
+</urlset>
