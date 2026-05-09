@@ -9,6 +9,7 @@
 }
 
 * { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -39,6 +40,7 @@ body {
 .main-nav { display: flex; flex-wrap: wrap; gap: 0.65rem; }
 .main-nav a { color: #fff; text-decoration: none; padding: 0.4rem 0.55rem; border-radius: 6px; }
 .main-nav a:hover { background: #325f25; }
+main section[id] { scroll-margin-top: 86px; }
 
 main { padding: 1rem 0 2rem; min-height: 75vh; }
 .card {
@@ -93,13 +95,39 @@ th { background: #f9fafb; }
 .good { color: #166534; }
 .bad { color: #991b1b; }
 .map svg { width: 100%; height: auto; background: #f0fdf4; border-radius: 10px; border: 1px solid #bbf7d0; }
+details > summary { cursor: pointer; }
+details[open] > summary { margin-bottom: 0.5rem; }
 
 @media (max-width: 850px) {
   .grid-3 { grid-template-columns: 1fr 1fr; }
 }
 @media (max-width: 700px) {
   .menu-btn { display: block; }
-  .main-nav { display: none; position: absolute; left: 0; right: 0; top: 56px; background: #1f3a1b; padding: 0.8rem; }
+  .site-header { position: sticky; }
+  .header-row { align-items: flex-start; }
+  .brand h1 { font-size: 1.05rem; }
+  .brand p { font-size: 0.75rem; }
+  .main-nav {
+    display: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 56px;
+    background: #1f3a1b;
+    padding: 0.8rem;
+    max-height: 72vh;
+    overflow-y: auto;
+    border-top: 1px solid #325f25;
+  }
   .main-nav.show { display: flex; }
+  .main-nav a {
+    width: 100%;
+    padding: 0.7rem 0.6rem;
+    border-bottom: 1px solid #325f25;
+    border-radius: 0;
+  }
+  button.primary, button.secondary { width: 100%; }
+  input, select, textarea { font-size: 16px; }
+  .card { padding: 0.85rem; }
   .grid-2, .grid-3 { grid-template-columns: 1fr; }
 }
